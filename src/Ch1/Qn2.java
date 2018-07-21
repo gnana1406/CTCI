@@ -17,9 +17,6 @@ public class Qn2 {
         for(ind=0;ind<len1;ind++)
         {
             freq1[str1.charAt(ind)]++;
-        }
-        for(ind=0;ind<len2;ind++)
-        {
             freq2[str2.charAt(ind)]++;
         }
         for(ind=0;ind<256;ind++)

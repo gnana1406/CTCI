@@ -15,6 +15,12 @@ public class Qn3 {
                 space++;
             }
         }
+    while (str[ind-1] == ' ')
+    {
+       space--;
+       ind--;
+    }
+    len=ind;
         new_len=len+2*space;
         for(ind=new_len-1,itr=len-1;ind>=0;ind--,itr--)
         {

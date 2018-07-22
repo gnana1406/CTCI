@@ -22,9 +22,13 @@ public class Qn1 {
             }
         }
         if(flag==0)
+        {
             System.out.println("Unique");
+        }
         else
+        {
             System.out.println("Not unique");
+        }
         
     }
 }
